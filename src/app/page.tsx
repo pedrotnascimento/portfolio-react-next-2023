@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './scss/_resume-item.scss';
 import './scss/resume.scss';
 import {
+  AngularjsOriginal,
   CsharpOriginal, Css3Original, DockerOriginal, DotnetcoreOriginal,
   GithubOriginal, JavascriptOriginal, LinkedinOriginal, PythonOriginal, ReactOriginal
 } from 'devicons-react';
@@ -168,52 +169,79 @@ export default function Home() {
             <div className="subheading mb-3">Programming Languages &amp; Tools</div>
             <Row >
               <Col  >
-                <ReactOriginal size={100}></ReactOriginal>
+                <div>
+                  <ReactOriginal size={"100%"}></ReactOriginal>
+                  <p className='technology-center'>React</p>
+                </div>
               </Col>
               <Col >
-                <Css3Original size={100}></Css3Original>
+                <div>
+                  <PythonOriginal size={"100%"}></PythonOriginal>
+                  <p className='technology-center'>Python</p>
+                </div>
               </Col>
               <Col >
-                <JavascriptOriginal size={100}></JavascriptOriginal>
+                <div>
+                  <CsharpOriginal size={"100%"}></CsharpOriginal>
+                  <p className='technology-center'>C#</p>
+                </div>
               </Col>
               <Col >
-                <PythonOriginal size={100}></PythonOriginal>
+                <div>
+                  <DotnetcoreOriginal size={"100%"}></DotnetcoreOriginal>
+                  <p className='technology-center'>.Net Core</p>
+                </div>
               </Col>
               <Col >
-                <CsharpOriginal size={100}></CsharpOriginal>
+                <div>
+                  <AngularjsOriginal size={"100%"}></AngularjsOriginal>
+                  <p className='technology-center'>Angular</p>
+                </div>
               </Col>
               <Col >
-                <DotnetcoreOriginal size={100}></DotnetcoreOriginal>
+                <div>
+                  <Css3Original size={"100%"}></Css3Original>
+                  <p className='technology-center'>CSS3</p>
+                </div>
               </Col>
               <Col >
-                <DockerOriginal size={100}></DockerOriginal>
+                <div>
+                  <JavascriptOriginal size={"100%"}></JavascriptOriginal>
+                  <p className='technology-center'>Javascript</p>
+                </div>
+              </Col>
+              <Col >
+                <div>
+                  <DockerOriginal size={"100%"}></DockerOriginal>
+                  <p className='technology-center'>Docker</p>
+                </div>
               </Col>
             </Row>
 
             <div className="subheading mb-3">Workflow</div>
             <ListGroup >
               <ListGroup.Item>
-              <FontAwesomeIcon icon={faCheck} />
+                <FontAwesomeIcon icon={faCheck} />
                 Clean code
               </ListGroup.Item>
               <ListGroup.Item>
-              <FontAwesomeIcon icon={faCheck} />
+                <FontAwesomeIcon icon={faCheck} />
                 Clean Architecture
               </ListGroup.Item>
               <ListGroup.Item>
-              <FontAwesomeIcon icon={faCheck} />
+                <FontAwesomeIcon icon={faCheck} />
                 SOLID Principles
               </ListGroup.Item>
               <ListGroup.Item>
-              <FontAwesomeIcon icon={faCheck} />
+                <FontAwesomeIcon icon={faCheck} />
                 Agile Development &amp; Scrum
               </ListGroup.Item>
               <ListGroup.Item>
-              <FontAwesomeIcon icon={faCheck} />
+                <FontAwesomeIcon icon={faCheck} />
                 TDD
               </ListGroup.Item>
               <ListGroup.Item>
-              <FontAwesomeIcon icon={faCheck} />
+                <FontAwesomeIcon icon={faCheck} />
                 Deployment in Azure Devops and AWS Fargate
               </ListGroup.Item>
             </ListGroup>

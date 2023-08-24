@@ -58,7 +58,7 @@ h2 {
 }
 
 .list-social-icons a:hover {
-  color: #BD5D38;
+  color: $kassiaBlue;
 }
 
 .list-social-icons a .fa-lg {
@@ -70,7 +70,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: $kassiaBlue;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -152,15 +152,15 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: $kassiaBlue !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: $kassiaBlue !important;
 }
 
 a {
-  color: #BD5D38;
+  color: $kassiaBlue;
 }
 
 a:hover,
@@ -169,6 +169,10 @@ a:active {
   color: #824027;
 }
 
-.list-group-item{
-  border: none!important;
+.list-group-item {
+  border: none !important;
+}
+
+.technology-center {
+  text-align: center;
 }
