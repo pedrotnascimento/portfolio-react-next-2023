@@ -11,6 +11,7 @@ import {
 } from 'devicons-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import Image from 'next/image';
 
 
 export default function Home() {
@@ -19,7 +20,7 @@ export default function Home() {
       <Navbar expand="lg" className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         <Navbar.Brand className="navbar-brand js-scroll-trigger" href="#page-top">
           <span className="d-none d-lg-block">
-            <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/profile.jpeg" alt="" />
+            <Image className="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/profile.jpeg" width={100} height={100} alt="" />
           </span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -51,7 +52,7 @@ export default function Home() {
             <div className="subheading mb-5">Rua Helvia Bragança · Rio de Janeiro, Brazil · +55 (21) 98017-1775 ·
               <p><a href="mailto:pedrotnascimento@gmail.com" >pedrotnascimento@gmail.com</a></p>
             </div>
-            <p className="mb-5">I am experienced in developing softwares from frontend to cloud. The technologies I have great expertise are Angular, React, .Net Core and Python, of course, I'm software engineer I can handle any software issue.</p>
+            <p className="mb-5">I am experienced in developing softwares from frontend to cloud. The technologies I have great expertise are Angular, React, .Net Core and Python, of course, I&apos;m software engineer I can handle any software issue.</p>
             <Row className="list-inline list-social-icons mb-0" justify-content>
               <Col className="list-inline-item" sm={2}>
                 <a target="_blank" href="https://www.linkedin.com/in/pedro-nascimento-2360a5103/">
@@ -96,7 +97,7 @@ export default function Home() {
               <div className="resume-content mr-auto">
                 <h3 className="mb-0">Fullstack developer</h3>
                 <div className="subheading mb-3">Radix Engineering and Software</div>
-                <p>I've had the privilege of contributing to a variety of impactful web application projects in a fullstack capacity. I've engaged with diverse clientele spanning insurance companies, the plastic industry, gas stations, and even oil companies.</p>
+                <p>I&apos;ve had the privilege of contributing to a variety of impactful web application projects in a fullstack capacity. I&apos;ve engaged with diverse clientele spanning insurance companies, the plastic industry, gas stations, and even oil companies.</p>
                 <p>One standout accomplishment was spearheading an integration test project that streamlined processes across the entire company. This initiative enhanced efficiency and quality, delivering seamless outcomes.</p>
                 <p>My tech toolkit included leveraging Azure DevOps and Jenkins to ensure top-tier CI/CD implementation. In addition, I skillfully managed and optimized databases using PostgreSQL and SQL Server.</p>
                 <p>Throughout my journey, I remained dedicated to the SOLID principles and championed the importance of Clean Code. Passionate about knowledge-sharing, I took it upon myself to mentor newcomers to our dynamic team.</p>
@@ -122,7 +123,7 @@ export default function Home() {
                 <h3 className="mb-0">.Net Core and Python Developer</h3>
                 <div className="subheading mb-3">GT2 Engineering</div>
                 <p>
-                  Implemented features and fixed bugs being the only responsible for the GT2 thermoelectric plant simulation system, the company's main product. This system was developed in .Net.
+                  Implemented features and fixed bugs being the only responsible for the GT2 thermoelectric plant simulation system, the company&apos;s main product. This system was developed in .Net.
                 </p>
                 <p>Other activities included generating a python script to ease data analyst tasks.</p>
               </div>
@@ -216,7 +217,7 @@ export default function Home() {
                   <p className='technology-center'>Docker</p>
                 </div>
               </Col>
-            </Row>
+            </Row> 
 
             <div className="subheading mb-3">Workflow</div>
             <ListGroup >
