@@ -50,8 +50,7 @@ export default function Home() {
               <span>Pedro</span>
               <span className="text-primary">Nascimento</span>
             </h1>
-            <div className="subheading mb-5">Rua Helvia Bragança · Rio de Janeiro, Brazil · +55 (21) 98017-1775 ·
-              <p><a href="mailto:pedrotnascimento@gmail.com" >pedrotnascimento@gmail.com</a></p>
+            <div className="subheading mb-5">Rio de Janeiro, Brazil · +55 (21) 98017-1775 
             </div>
             <p className="mb-5">I am experienced in developing softwares from frontend to cloud. The technologies I have great expertise are Angular, React, .Net Core and Python, of course, I&apos;m software engineer I can handle any software issue.</p>
             <Row  fluid justify-content>
