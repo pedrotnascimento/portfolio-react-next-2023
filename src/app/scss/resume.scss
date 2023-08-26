@@ -14,64 +14,7 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
-body {
-  font-family: 'Open Sans', serif;
-  padding-top: 54px;
-  color: #868e96;
-}
 
-@media (min-width: 992px) {
-  body {
-    padding-top: 0;
-    padding-left: 17rem;
-  }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #343a40;
-}
-
-h1 {
-  font-size: 4rem;
-  line-height: 5.5rem;
-}
-
-h2 {
-  font-size: 3.5rem;
-}
-
-.subheading {
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 1.35rem;
-}
-
-.list-social-icons a {
-  color: #495057;
-}
-
-.list-social-icons a:hover {
-  color: $kassiaBlue;
-}
-
-.list-social-icons a .fa-lg {
-  font-size: 1.75rem;
-}
-
-.list-icons {
-  font-size: 3rem;
-}
-
-.list-icons .list-inline-item i:hover {
-  color: $kassiaBlue;
-}
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
@@ -175,4 +118,24 @@ a:active {
 
 .technology-center {
   text-align: center;
+}
+
+.name-title{
+  font-size: 7vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-list{
+  flex-grow: 0!important;
+}
+
+.skill-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skill-item{
+  margin: 0 2vw;
 }
